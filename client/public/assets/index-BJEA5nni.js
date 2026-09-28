@@ -16,8 +16,8 @@ Error generating stack: `+a.message+`
  Rt.useEffect(()=>{p==="modelo-1212"&&X.originalDataUrl&&X.widgetOpacity==null&&O(X.id,50)},[p,X.id,X.originalDataUrl,X.widgetOpacity,O]);
  const h=pt.length>1,o=X.results[p]??"",f=pt.filter(S=>!!X.results[S]);
  const status=X.status==="done"?"pronto":X.status==="error"?"erro":"aguardando";
- return Y.jsxs("div",{className:"group relative bg-card rounded-2xl border border-border/50 shadow-sm flex items-center gap-3 p-2.5 sm:p-3 min-h-[72px]",children:[
-  Y.jsx("div",{className:"relative w-12 h-12 sm:w-14 sm:h-14 shrink-0 overflow-hidden rounded-xl bg-muted/40",children:X.status==="done"&&o?Y.jsx("img",{src:o,alt:X.name,className:"w-full h-full object-contain"}):X.originalDataUrl?Y.jsx("img",{src:X.originalDataUrl,alt:X.name,className:"w-full h-full object-cover"}):Y.jsx("div",{className:"w-full h-full flex items-center justify-center",children:Y.jsx("div",{className:"w-4 h-4 border-2 border-border/50 border-t-violet-500 rounded-full animate-spin"})})}),
+ return Y.jsxs("div",{className:"group relative bg-card rounded-2xl border border-border/50 shadow-sm flex items-center gap-2 p-2 min-h-[60px]",children:[
+  Y.jsx("div",{className:"relative w-10 h-10 sm:w-12 sm:h-12 shrink-0 overflow-hidden rounded-xl bg-muted/40",children:X.status==="done"&&o?Y.jsx("img",{src:o,alt:X.name,className:"w-full h-full object-contain"}):X.originalDataUrl?Y.jsx("img",{src:X.originalDataUrl,alt:X.name,className:"w-full h-full object-cover"}):Y.jsx("div",{className:"w-full h-full flex items-center justify-center",children:Y.jsx("div",{className:"w-4 h-4 border-2 border-border/50 border-t-violet-500 rounded-full animate-spin"})})}),
   Y.jsxs("div",{className:"min-w-0 flex-1 self-stretch flex flex-col justify-center",children:[
    Y.jsx("p",{className:`text-xs sm:text-sm ${f.length?"text-foreground":"text-muted-foreground"} truncate font-semibold`,children:X.name}),
    Y.jsx("p",{className:`text-[10px] capitalize ${X.status==="error"?"text-red-400":X.status==="done"?"text-green-400":"text-muted-foreground"}`,children:status}),
